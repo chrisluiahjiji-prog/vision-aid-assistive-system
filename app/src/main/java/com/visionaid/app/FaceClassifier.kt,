@@ -1,1 +1,17 @@
+package com.jk.kukuapplication
 
+import android.content.Context
+import android.graphics.Bitmap
+
+class FaceClassifier(context: Context) {
+
+    // In real project this loads mobile_facenet.tflite or ArcFace ONNX model
+    init {
+        // TODO: Load TFLite / ONNX model from assets/mobile_facenet.tflite
+    }
+
+    fun detectAndRecognize(bitmap: Bitmap): String {
+        // Placeholder - returns dummy result
+        return "Face detected - Matching against database..."
+    }
+}
