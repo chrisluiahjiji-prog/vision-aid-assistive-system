@@ -4,27 +4,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="32dp">
+    android:padding="32dp"
+    android:background="#F5F5F5">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Vision Aid"
-        android:textSize="32sp"
+        android:textSize="36sp"
         android:textStyle="bold"
-        android:layout_marginBottom="48dp"/>
+        android:textColor="#1E88E5"
+        android:layout_marginBottom="60dp"/>
 
     <Button
         android:id="@+id/btn_start_session"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
         android:text="Start Real-Time Session"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
 
     <Button
         android:id="@+id/btn_manage_faces"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Manage Faces"/>
-
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Manage Faces"
+        android:textSize="18sp"/>
 </LinearLayout>
