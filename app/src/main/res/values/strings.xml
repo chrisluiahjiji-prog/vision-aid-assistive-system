@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vision Aid</string>
+    <string name="start_session">Start Real-Time Session</string>
+    <string name="manage_faces">Manage Faces</string>
+    <string name="add_person">Add New Person</string>
+    <string name="stop_session">Stop Session</string>
+</resources>
